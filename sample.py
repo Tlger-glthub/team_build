@@ -52,6 +52,6 @@ kana_list = [
 for i in range(5):
         word = random.choice(kana_list)
         user_input = input(f"{word}:")
-        print(f"{word}: {user_input}")
+
 
 
